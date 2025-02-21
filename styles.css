@@ -305,11 +305,11 @@ footer{
 }
 @media (max-width: 1024px) {
     header {
-        padding: 10px 50px; /* تقليل الهوامش */
+        padding: 10px 50px; 
     }
 
     section {
-        padding: 80px 50px; /* تصغير المسافات الجانبية */
+        padding: 80px 50px; 
     }
 
     .contact {
@@ -368,7 +368,7 @@ footer{
 
     .card,
     .card-project {
-        width: 90%; /* جعل الكروت تأخذ معظم عرض الشاشة */
+        width: 90%; 
     }
 
     .contact-form {
@@ -400,20 +400,19 @@ footer{
 }
 @media (max-width: 768px) {
     header {
-        flex-direction: row; /* تأكد من بقاء العناصر جنب بعض */
-        justify-content: space-between; /* توزيع العناصر بشكل متساوٍ */
+        flex-direction: row; 
+        justify-content: space-between;
         align-items: center;
         padding: 10px 20px;
     }
 
     nav {
         display: flex;
-        flex-direction: row; /* جعل الروابط تبقى في صف واحد */
-        gap: 10px; /* تقليل المسافة بين الروابط */
-    }
+        flex-direction: row; 
+        gap: 10px;
 
     .nav-link {
-        font-size: 0.9em; /* تقليل حجم الخط */
-        padding: 5px 8px; /* تصغير الهوامش */
+        font-size: 0.9em; 
+        padding: 5px 8px; 
     }
 }
